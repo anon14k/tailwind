@@ -1,0 +1,31 @@
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* src/styles.css */
+
+/* Customizing Tailwind's default button style using @apply */
+@layer components {
+  .btn-primary {
+    @apply bg-primary text-white font-bold py-3 px-6 rounded-lg shadow-lg hover:bg-secondary transition duration-300;
+  }
+}
+
+/* Overriding Tailwind's default text color */
+.text-blue-600 {
+  color: #3490dc; /* Use custom primary color */
+}
+
+/* Customizing Tailwind's default padding for p-4 */
+.p-4 {
+  padding: 1.5rem; /* Use custom padding size */
+}
+
+/* Adding a custom card style using @apply */
+.card {
+  @apply bg-white p-8 rounded-lg shadow-lg;
+}
+
