@@ -1,7 +1,0 @@
-[build]
-  base = "tailwind-react-demo"  # Correct base directory
-  publish = "tailwind-react-demo/public"  # Folder where index.html is located
-  command = ""  # No build command for static HTML
-
-[build.environment]
-  NODE_ENV = "production"
